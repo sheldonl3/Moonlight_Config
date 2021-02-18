@@ -30,6 +30,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 因此需要对指定的端口进行nat转发，在moonlight的[Setup Guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)中可以找到相关端口。
 为了保证lan地址不变，根据使用的lan端口的mac地址配置静态ip地址
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E9%9D%99%E6%80%81.png)
+
 在nat中对静态lan地址配置端口转发
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/nat2.png)
 
