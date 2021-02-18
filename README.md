@@ -1,6 +1,6 @@
 # 使用moonlight进行PC串流教程
 
-使用Moonlight与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
+使用![Moonlight](https://github.com/moonlight-stream)与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
 
 ## 系统要求和前期准备
 - 串流PC:使用N卡，GTX 600以上型号，并且安装Nvidia Geforce Experience
@@ -22,7 +22,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 ## 远程串流
 远程串流是使用外部网络连接家庭内网的游戏主机进行串流，需要解决内网的访问问题
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91.png)
-可以使用IPV4或者IPV6进行串流，但是IPV6的访问需要路由器的支持，配置IPV6防火墙，由于条件限制本文使用IPV4
+可以使用IPV4或者IPV6进行串流，但是IPV6的访问需要路由器的支持，配置IPV6防火墙，由于条件限制本文使用IPV4。
 因为用户从外网访问，因此需要进行内网穿透，需要通过对路由器和猫进行配置
 
 ### 1）猫
@@ -38,14 +38,15 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 
 所以首先主机绑定静态IP。这一步有的路由器不用配置，因为进行nat的时候可以直接绑定主机
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E9%9D%99%E6%80%81ip.png)
+
 对主机同样的端口配置nat，这样串流流量通路顺利打通
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/nat.png)
 使用![端口检测](https://www.canyouseeme.org/)工具可以检测是否配置成功（只需检测47984 47989，其他端口使用时才开放）
 
 
 ### 3）PC配置和移动端
-和本地串流方式相同，无序做多余配置，GFE默认开启所有服务
+和本地串流方式相同，无序做多余配置，GFE默认开启所有服务。
 最后使用连接外网的移动端，在moonlight内添加家庭的公网IP，会搜素到串流PC，添加后即可游戏
 
-测试使用北京联通4G下行58Mbps，主机使用联通宽带，上行24Mbps，
-可能是因为带宽限制，画面效果可以，但是经常会有声音卡顿的情况
+测试使用北京联通4G下行58Mbps，主机使用联通宽带，上行24Mbps。可能是因为带宽限制，画面效果可以，但是经常会有声音卡顿的情况
+内容参考![b站专栏](https://www.bilibili.com/read/cv6333264?from=search)
