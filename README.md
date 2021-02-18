@@ -1,4 +1,4 @@
-# 使用moonlight进行PC串流教程
+# 使用Moonlight进行PC串流教程
 
 使用[Moonlight](https://github.com/moonlight-stream)与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
 
