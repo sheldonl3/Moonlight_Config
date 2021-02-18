@@ -3,9 +3,9 @@
 使用Moonlight与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
 
 ## 系统要求和前期准备
-### 1）串流PC:使用N卡，GTX 600以上型号，并且安装Nvidia Geforce Experience
-### 2）可以对家庭路由器进行配置
-### 3）拥有接受串流的移动设备
+- 串流PC:使用N卡，GTX 600以上型号，并且安装Nvidia Geforce Experience
+- 可以对家庭路由器进行配置
+- 拥有接受串流的移动设备
 
 ## 本地串流
 本地串流比较容易，就是串流PC和接受串流的移动设备在同一个局域网中，只要安装好软件既可以使用
@@ -26,8 +26,8 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 因为用户从外网访问，因此需要进行内网穿透，需要通过对路由器和猫进行配置
 
 ### 1）猫
-猫配置最简单的方式是直接关闭防火墙，但是不安全
-因此需要对指定的端口进行nat转发，在moonlight的[Setup Guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)中可以找到相关端口
+猫配置最简单的方式是直接关闭防火墙，但是不安全。
+因此需要对指定的端口进行nat转发，在moonlight的[Setup Guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)中可以找到相关端口。
 为了保证lan地址不变，根据使用的lan端口的mac地址配置静态ip地址
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E9%9D%99%E6%80%81.png)
 在nat中对静态lan地址配置端口转发
