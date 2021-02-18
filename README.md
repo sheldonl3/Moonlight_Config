@@ -33,6 +33,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 在moonlight的[Setup Guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)中可以找到服务使用的端口
 - TCP 47984, 47989, 48010
 - UDP 47998, 47999, 48000, 48010
+
 在nat中对静态lan地址配置端口转发
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/nat2.png)
 
