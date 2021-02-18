@@ -1,6 +1,6 @@
 # 使用moonlight进行PC串流教程
 
-使用![Moonlight](https://github.com/moonlight-stream)与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
+使用[Moonlight](https://github.com/moonlight-stream)与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
 
 ## 系统要求和前期准备
 - 串流PC:使用N卡，GTX 600以上型号，并且安装Nvidia Geforce Experience
@@ -41,7 +41,7 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 
 对主机同样的端口配置nat，这样串流流量通路顺利打通
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/nat.png)
-使用![端口检测](https://www.canyouseeme.org/)工具可以检测是否配置成功（只需检测47984 47989，其他端口使用时才开放）
+使用[端口检测](https://www.canyouseeme.org/)工具可以检测是否配置成功（只需检测47984 47989，其他端口使用时才开放）
 
 
 ### 3）PC配置和移动端
@@ -49,4 +49,4 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 最后使用连接外网的移动端，在moonlight内添加家庭的公网IP，会搜素到串流PC，添加后即可游戏
 
 测试使用北京联通4G下行58Mbps，主机使用联通宽带，上行24Mbps。可能是因为带宽限制，画面效果可以，但是经常会有声音卡顿的情况
-内容参考![b站专栏](https://www.bilibili.com/read/cv6333264?from=search)
+内容参考[b站专栏](https://www.bilibili.com/read/cv6333264?from=search)
