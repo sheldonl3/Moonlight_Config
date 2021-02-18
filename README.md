@@ -35,13 +35,14 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/nat2.png)
 
 ### 2)路由器
-路由器可以使用桥接模式，或者关闭防火墙，但是这样对原本的网络功能有较大的影响，不推荐。
+路由器可以使用桥接模式，或者关闭防火墙，但是这样对原本的网络功能有较大的影响，不推荐使用。
 
 所以首先主机绑定静态IP。这一步有的路由器不用配置，因为进行nat的时候可以直接绑定主机
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E9%9D%99%E6%80%81ip.png)
 
 对主机同样的端口配置nat，这样串流流量通路顺利打通
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/nat.png)
+
 使用[端口检测](https://www.canyouseeme.org/)工具可以检测是否配置成功（只需检测47984 47989，其他端口使用时才开放）
 
 
