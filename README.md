@@ -23,10 +23,10 @@ GFE默认会添加支持串流的游戏，并且可以添加任何程序
 远程串流是使用外部网络连接家庭内网的游戏主机进行串流，需要解决内网的访问问题
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91.png)
 可以使用IPV4或者IPV6进行串流，但是IPV6的访问需要路由器的支持，配置IPV6防火墙，由于条件限制本文使用IPV4。
-因为用户从外网访问，因此需要进行内网穿透，需要通过对路由器和猫进行配置
+因为用户从外网访问，因此需要进行内网穿透，需要通过对调制解调器和路由器进行配置
 
-### 1）猫
-猫配置最简单的方式是直接关闭防火墙，但是不安全。
+### 1）调制解调器
+配置最简单的方式是直接关闭防火墙，但是不安全。
 因此需要对指定的端口进行nat转发，在moonlight的[Setup Guide](https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide)中可以找到相关端口。
 为了保证lan地址不变，根据使用的lan端口的mac地址配置静态ip地址
 ![](https://github.com/sheldonl3/Moonlight_Config/blob/master/%E9%9D%99%E6%80%81.png)
