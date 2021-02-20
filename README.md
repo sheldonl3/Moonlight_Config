@@ -1,6 +1,6 @@
 # 使用Moonlight进行PC串流教程
 
-使用[Moonlight](https://github.com/moonlight-stream)与Nvidia Gforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
+使用[Moonlight](https://github.com/moonlight-stream)与Nvidia Geforce Experience进行PC（游戏）串流，分为本地串流和远程串流2种方式。
 
 ## 系统要求和前期准备
 - 串流PC:使用N卡，GTX 600以上型号，并且安装Nvidia Geforce Experience
